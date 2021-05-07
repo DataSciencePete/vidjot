@@ -1,0 +1,5 @@
+if(process.env.NODE_ENV == 'production') {
+    module.exports = {mongoURI: 'PROD_MONGO_URI_HERE'}
+} else {
+    module.exports = {mongoURI: 'LOCAL_MONGO_URI_HERE'}
+}
